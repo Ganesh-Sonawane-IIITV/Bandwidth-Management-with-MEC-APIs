@@ -89,10 +89,11 @@ This project provides a RESTful API for bandwidth management on network interfac
 
 ## Install Tools
 
-To monitor bandwidth, install the required tools using:
+-To monitor bandwidth, install the required tools using:
 
-    ```bash
-       sudo apt install iftop nload
+   ```
+   sudo apt install iftop nload
+   ```
     
 ## Monitor Bandwidth:
 - Use nload :
