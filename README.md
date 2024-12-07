@@ -110,9 +110,9 @@ This project provides a RESTful API for bandwidth management on network interfac
   ```
 ## Demo Video
 🎥 Check out the demo video here to see the API in action!
-[Demonstration](https://drive.google.com/file/d/17H8HOKrc7OWB7ZjU2bH_2ew9U5UzAPsN/view?usp=drive_link)
-[Report](https://www.overleaf.com/9645693241mscjpytqnjvp#116a5f).
-[Drive Folder](https://drive.google.com/drive/folders/1wPBKR3rj-AFaZL3amj5Fm33kL2hKT9lH?usp=drive_link)
+- [Demonstration](https://drive.google.com/file/d/17H8HOKrc7OWB7ZjU2bH_2ew9U5UzAPsN/view?usp=drive_link)
+- [Report](https://www.overleaf.com/9645693241mscjpytqnjvp#116a5f).
+- [Drive Folder](https://drive.google.com/drive/folders/1wPBKR3rj-AFaZL3amj5Fm33kL2hKT9lH?usp=drive_link)
 
 ## Enhancements
 1. Deploy API as a Service:
