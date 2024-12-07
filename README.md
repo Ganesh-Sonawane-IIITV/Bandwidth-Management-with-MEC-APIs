@@ -83,13 +83,13 @@ This project provides a RESTful API for bandwidth management on network interfac
 - Run a client test
      ```bash
   iperf3 -c <server_ip>
--Observe the impact of bandwidth limitations.
+- Observe the impact of bandwidth limitations.
 
 # Monitoring Tools
 
 ## Install Tools
 
--To monitor bandwidth, install the required tools using:
+- To monitor bandwidth, install the required tools using:
 
    ```
    sudo apt install iftop nload
@@ -104,7 +104,7 @@ This project provides a RESTful API for bandwidth management on network interfac
   sudo iftop
 
 ##Reset Bandwidth Rules
--To remove or reset bandwidth limitations on a network interface, run:
+- To remove or reset bandwidth limitations on a network interface, run:
   ```
     sudo tc qdisc del dev eth0 root
   ```
@@ -135,7 +135,7 @@ https://github.com/Ganesh-Sonawane-IIITV/Bandwidth-Management-with-MEC-APIs/blob
   WantedBy=multi-user.target
   ```
   
--Reload systemd and enable the service
+- Reload systemd and enable the service
   ```
   sudo systemctl daemon-reload
   sudo systemctl enable mec_api.service
@@ -143,12 +143,12 @@ https://github.com/Ganesh-Sonawane-IIITV/Bandwidth-Management-with-MEC-APIs/blob
   ```
 
 2. Extend API Functionality:
-  -Add endpoints for deleting or modifying bandwidth rules.
-  -Support multiple network interfaces.
+  - Add endpoints for deleting or modifying bandwidth rules.
+  - Support multiple network interfaces.
 
    
 4. Integrate with a Frontend:
-  -Use frameworks like React or Angular to manage bandwidth visually.
+  - Use frameworks like React or Angular to manage bandwidth visually.
 
 
 
