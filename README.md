@@ -65,22 +65,23 @@ This project provides a RESTful API for bandwidth management on network interfac
    python3 mec_api.py
 - The API will start and listen on http://0.0.0.0:5000.
 2. **Send a POST Request:**
-  ```bash
+```
   curl -X POST -H "Content-Type: application/json" -d '{"device": "eth0", "bandwidth": "1mbit"}' http://localhost:5000/manage_bandwidth
+```
 - Expected Response:
-  ```bash
+    ```bash
     "message": "Bandwidth set to 1mbit for eth0"
   
 ## Testing
 1. Install iperf3:
-   ```bash
+    ```bash
    sudo apt install iperf3
 2. Simulate Traffic:
 - Start the server:
-  ```bash
+     ```bash
   iperf3 -s
 - Run a client test
-  ```bash
+     ```bash
   iperf3 -c <server_ip>
 -Observe the impact of bandwidth limitations.
 
@@ -90,9 +91,9 @@ This project provides a RESTful API for bandwidth management on network interfac
 
 To monitor bandwidth, install the required tools using:
 
-  ```bash
-    sudo apt install iftop nload
-  ```
+    ```bash
+       sudo apt install iftop nload
+    
 ## Monitor Bandwidth:
 - Use nload :
   ```bash
