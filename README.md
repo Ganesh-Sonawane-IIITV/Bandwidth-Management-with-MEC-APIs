@@ -103,18 +103,18 @@ This project provides a RESTful API for bandwidth management on network interfac
   ```bash
   sudo iftop
 
-##Reset Bandwidth Rules
+## Reset Bandwidth Rules
 - To remove or reset bandwidth limitations on a network interface, run:
   ```
     sudo tc qdisc del dev eth0 root
   ```
-##Demo Video
+## Demo Video
 🎥 Check out the demo video here to see the API in action!
 ```
 https://github.com/Ganesh-Sonawane-IIITV/Bandwidth-Management-with-MEC-APIs/blob/main/Untitled%20design%20(1).mp4
 ```
 
-##Enhancement
+## Enhancement
 1. Deploy API as a Service:
    -Create a systemd service file:
    ```bash
