@@ -59,7 +59,7 @@ This project provides a RESTful API for bandwidth management on network interfac
    - Create a Python file:
    ```bash
    nano mec_api.py
-## Usage
+## **Usage**
 1. **Run the API:**
    ```bash
    python3 mec_api.py
@@ -68,11 +68,9 @@ This project provides a RESTful API for bandwidth management on network interfac
   ```bash
   curl -X POST -H "Content-Type: application/json" -d '{"device": "eth0", "bandwidth": "1mbit"}' http://localhost:5000/manage_bandwidth
 - Expected Response:
-  ```
-  {
+  ```bash
     "message": "Bandwidth set to 1mbit for eth0"
-  }
-  ```
+  
 ## Testing
 1. Install iperf3:
    ```bash
@@ -92,7 +90,7 @@ This project provides a RESTful API for bandwidth management on network interfac
 
 To monitor bandwidth, install the required tools using:
 
-  ```
+  ```bash
     sudo apt install iftop nload
   ```
 ## Monitor Bandwidth:
